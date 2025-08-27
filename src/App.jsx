@@ -1,11 +1,11 @@
-import Header from "./Header";
-import { UserInput } from "./UserInput";
-import { Results } from "./Results";
+import Header from "./components/Header";
+import { UserInput } from "./components/UserInput";
+import { Results } from "./components/Results";
 
 import { useState } from "react";
 function App() {
   const [userInput, setUserInput] = useState({
-    intialInvestment: 10000,
+    initialInvestment: 10000,
     annualInvestment: 100000,
     expectedReturn: 12,
     duration: 15,

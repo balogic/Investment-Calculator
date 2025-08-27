@@ -6,7 +6,7 @@ export const UserInput = ({ onChange, userInput }) => {
           <label>Initial Investment</label>
           <input
             type="number"
-            value={userInput["intialInvestment"].value}
+            value={userInput["initialInvestment"].value}
             onChange={(event) =>
               onChange("initialInvestment", event.target.value)
             }
